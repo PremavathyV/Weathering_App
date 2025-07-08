@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌤️ Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="weather-container">
+    <h1>🌤️ Weather App</h1>
+    <div class="input-group">
+      <input type="text" id="locationInput" placeholder="🔍 Enter city name" />
+      <button onclick="getWeatherByInput()">Get Weather</button>
+    </div>
+    <div id="weatherData" class="weather-data">
+      <!-- Weather info will appear here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
