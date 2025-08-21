@@ -41,8 +41,8 @@ OpenWeather API – Weather data
 4.Open index.html in your browser
 OR use Live Server in VS Code
 
-**🔑 API Setup
-**
+**🔑 API Setup**
+
 
 1.Sign up at OpenWeather
 
@@ -55,6 +55,8 @@ OR use Live Server in VS Code
 
 
 **📂 Folder Structure**
+
+
 Weathering-App/
 │── index.html
 │── style.css
